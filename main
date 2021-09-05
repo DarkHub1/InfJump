@@ -1,3 +1,6 @@
+-- Made by Kron
+
+local BloxHubConter = Instance.new("ScreenGui")
 local Legit = Instance.new("Frame")
 local Configuration = Instance.new("Configuration")
 local UICorner1 = Instance.new("UICorner")
@@ -22,8 +25,13 @@ local ambientShadow_2 = Instance.new("ImageLabel")
 
 --Properties:
 
+BloxHubConter.Name = "BloxHubConter"
+BloxHubConter.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+BloxHubConter.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+BloxHubConter.ResetOnSpawn = false
+
 Legit.Name = "Legit"
-Legit.Parent = game.StarterGui.BloxHubConter
+Legit.Parent = BloxHubConter
 Legit.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
 Legit.BorderColor3 = Color3.fromRGB(17, 17, 17)
 Legit.Position = UDim2.new(0.132421166, 0, 0.333396018, 0)
@@ -226,7 +234,7 @@ ambientShadow_2.SliceCenter = Rect.new(10, 10, 118, 118)
 
 -- Scripts:
 
-local function GFYUZU_fake_script() -- Legit.DraggableScript 
+local function PLIARSE_fake_script() -- Legit.DraggableScript 
 	local script = Instance.new('LocalScript', Legit)
 
 	local UIS = game:GetService('UserInputService')
@@ -264,8 +272,8 @@ local function GFYUZU_fake_script() -- Legit.DraggableScript
 		end
 	end)
 end
-coroutine.wrap(GFYUZU_fake_script)()
-local function NHSAYEF_fake_script() -- Open.Script 
+coroutine.wrap(PLIARSE_fake_script)()
+local function IUCRU_fake_script() -- Open.Script 
 	local script = Instance.new('Script', Open)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -273,4 +281,4 @@ local function NHSAYEF_fake_script() -- Open.Script
 	end)
 	
 end
-coroutine.wrap(NHSAYEF_fake_script)()
+coroutine.wrap(IUCRU_fake_script)()
