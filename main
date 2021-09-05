@@ -1,102 +1,58 @@
--- Made by Kron thx for using my script tester: Kron#9999, <--me irl#0420
-
-local BloxHubConter = Instance.new("ScreenGui")
-local MainFrame = Instance.new("Frame")
+local Legit = Instance.new("Frame")
+local Configuration = Instance.new("Configuration")
 local UICorner1 = Instance.new("UICorner")
+local Open = Instance.new("TextButton")
+local Tab1Button1_Corner = Instance.new("UICorner")
 local shadowHolderFrame = Instance.new("Frame")
 local umbraShadow = Instance.new("ImageLabel")
 local penumbraShadow = Instance.new("ImageLabel")
 local ambientShadow = Instance.new("ImageLabel")
-local Configuration = Instance.new("Configuration")
-local X = Instance.new("TextButton")
-local Tab1Button1_Corner = Instance.new("UICorner")
-local TextButton = Instance.new("TextButton")
-local Tab1Button1_Corner_2 = Instance.new("UICorner")
-local BloxHubText = Instance.new("TextLabel")
-local MainFrame2 = Instance.new("Frame")
+local InfJumpText = Instance.new("TextLabel")
+local Looogit = Instance.new("Frame")
+local Configuration_2 = Instance.new("Configuration")
 local UICorner1_2 = Instance.new("UICorner")
+local InfJumpButton1 = Instance.new("TextButton")
+local Tab1Button1_Corner_2 = Instance.new("UICorner")
+local InfJumpButton = Instance.new("TextButton")
+local Tab1Button1_Corner_3 = Instance.new("UICorner")
 local shadowHolderFrame_2 = Instance.new("Frame")
 local umbraShadow_2 = Instance.new("ImageLabel")
 local penumbraShadow_2 = Instance.new("ImageLabel")
 local ambientShadow_2 = Instance.new("ImageLabel")
-local Configuration_2 = Instance.new("Configuration")
-local TabButtonsHolderFrame = Instance.new("Frame")
-local Misc = Instance.new("TextButton")
-local Tab1Button1_Corner_3 = Instance.new("UICorner")
-local TabsHolderFrame = Instance.new("Frame")
-local Tab1 = Instance.new("ScrollingFrame")
-local UICorner1_3 = Instance.new("UICorner")
-local InfJumpButton = Instance.new("TextButton")
-local Tab1Button1_Corner_4 = Instance.new("UICorner")
-local InfJumpText = Instance.new("TextLabel")
-local GodModeText = Instance.new("TextLabel")
-local GodModeButton = Instance.new("TextButton")
-local Tab1Button1_Corner_5 = Instance.new("UICorner")
-local FlyEText = Instance.new("TextLabel")
-local FlyEButton = Instance.new("TextButton")
-local Tab1Button1_Corner_6 = Instance.new("UICorner")
-local NoclipRtext = Instance.new("TextLabel")
-local NoclipRButton = Instance.new("TextButton")
-local Tab1Button1_Corner_7 = Instance.new("UICorner")
-local BhopText = Instance.new("TextLabel")
-local AnticheatButton = Instance.new("TextButton")
-local Tab1Button1_Corner_8 = Instance.new("UICorner")
-local VersionText = Instance.new("TextLabel")
-local MainLoad = Instance.new("Frame")
-local UICorner1_4 = Instance.new("UICorner")
-local Configuration_3 = Instance.new("Configuration")
-local shadowHolderFrame_3 = Instance.new("Frame")
-local umbraShadow_3 = Instance.new("ImageLabel")
-local penumbraShadow_3 = Instance.new("ImageLabel")
-local ambientShadow_3 = Instance.new("ImageLabel")
-local DarkVoid = Instance.new("TextLabel")
-local Main = Instance.new("Frame")
-local UICorner1_5 = Instance.new("UICorner")
-local Load = Instance.new("TextButton")
-local Tab1Button1_Corner_9 = Instance.new("UICorner")
-local SupportedTowerofHell = Instance.new("TextLabel")
-local MainLoad2 = Instance.new("Frame")
-local UICorner1_6 = Instance.new("UICorner")
-local Configuration_4 = Instance.new("Configuration")
-local shadowHolderFrame_4 = Instance.new("Frame")
-local umbraShadow_4 = Instance.new("ImageLabel")
-local penumbraShadow_4 = Instance.new("ImageLabel")
-local ambientShadow_4 = Instance.new("ImageLabel")
-local Credits = Instance.new("TextLabel")
-local UIKron = Instance.new("TextLabel")
-local ScriptingKron9999 = Instance.new("TextLabel")
-local CreditsThanksto = Instance.new("TextLabel")
-local CreditsThanksto_2 = Instance.new("TextLabel")
-local Main434434 = Instance.new("Frame")
-local UICorner1_7 = Instance.new("UICorner")
-local Configuration_5 = Instance.new("Configuration")
-local shadowHolderFrame_5 = Instance.new("Frame")
-local umbraShadow_5 = Instance.new("ImageLabel")
-local penumbraShadow_5 = Instance.new("ImageLabel")
-local ambientShadow_5 = Instance.new("ImageLabel")
-local Testers = Instance.new("TextLabel")
-local UIKron_2 = Instance.new("TextLabel")
-local ScriptingKron9999_2 = Instance.new("TextLabel")
 
 --Properties:
 
-BloxHubConter.Name = "BloxHubConter"
-BloxHubConter.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-BloxHubConter.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-BloxHubConter.ResetOnSpawn = false
+Legit.Name = "Legit"
+Legit.Parent = game.StarterGui.BloxHubConter
+Legit.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+Legit.BorderColor3 = Color3.fromRGB(17, 17, 17)
+Legit.Position = UDim2.new(0.132421166, 0, 0.333396018, 0)
+Legit.Size = UDim2.new(0, 155, 0, 50)
 
-MainFrame.Name = "MainFrame"
-MainFrame.Parent = BloxHubConter
-MainFrame.BackgroundColor3 = Color3.fromRGB(11, 11, 11)
-MainFrame.BorderColor3 = Color3.fromRGB(11, 11, 11)
-MainFrame.Position = UDim2.new(0.383758724, 0, 0.405405372, 0)
-MainFrame.Size = UDim2.new(0, 299, 0, 35)
+Configuration.Parent = Legit
 
 UICorner1.Name = "UICorner1"
-UICorner1.Parent = MainFrame
+UICorner1.Parent = Legit
+
+Open.Name = "Open"
+Open.Parent = Legit
+Open.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+Open.BorderColor3 = Color3.fromRGB(17, 17, 17)
+Open.Position = UDim2.new(0.800999999, 0, 0.0469999984, 0)
+Open.Size = UDim2.new(0, 26, 0, 26)
+Open.Font = Enum.Font.SourceSansBold
+Open.Text = "x"
+Open.TextColor3 = Color3.fromRGB(255, 255, 255)
+Open.TextSize = 25.000
+Open.TextWrapped = true
+
+Tab1Button1_Corner.CornerRadius = UDim.new(0, 4)
+Tab1Button1_Corner.Name = "Tab1Button1_Corner"
+Tab1Button1_Corner.Parent = Open
 
 shadowHolderFrame.Name = "shadowHolderFrame"
-shadowHolderFrame.Parent = MainFrame
+shadowHolderFrame.Parent = Open
+shadowHolderFrame.BackgroundColor3 = Color3.fromRGB(253, 251, 255)
 shadowHolderFrame.BackgroundTransparency = 1.000
 shadowHolderFrame.Size = UDim2.new(1, 0, 1, 0)
 
@@ -106,7 +62,7 @@ umbraShadow.AnchorPoint = Vector2.new(0.5, 0.5)
 umbraShadow.BackgroundColor3 = Color3.fromRGB(19, 19, 19)
 umbraShadow.BackgroundTransparency = 1.000
 umbraShadow.BorderColor3 = Color3.fromRGB(19, 19, 19)
-umbraShadow.Position = UDim2.new(0.5, 0, 0.288030863, 12)
+umbraShadow.Position = UDim2.new(0.5, 0, 0.242636368, 12)
 umbraShadow.Size = UDim2.new(1, 17, 1, 17)
 umbraShadow.Image = "rbxassetid://1316045217"
 umbraShadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
@@ -120,7 +76,7 @@ penumbraShadow.AnchorPoint = Vector2.new(0.5, 0.5)
 penumbraShadow.BackgroundColor3 = Color3.fromRGB(19, 19, 19)
 penumbraShadow.BackgroundTransparency = 1.000
 penumbraShadow.BorderColor3 = Color3.fromRGB(19, 19, 19)
-penumbraShadow.Position = UDim2.new(0.5, 0, 0.141795367, 12)
+penumbraShadow.Position = UDim2.new(0.5, 0, 0.242636368, 12)
 penumbraShadow.Size = UDim2.new(1, 17, 1, 17)
 penumbraShadow.Image = "rbxassetid://1316045217"
 penumbraShadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
@@ -134,76 +90,97 @@ ambientShadow.AnchorPoint = Vector2.new(0.5, 0.5)
 ambientShadow.BackgroundColor3 = Color3.fromRGB(19, 19, 19)
 ambientShadow.BackgroundTransparency = 1.000
 ambientShadow.BorderColor3 = Color3.fromRGB(19, 19, 19)
-ambientShadow.Position = UDim2.new(0.5, 0, 0.141795129, 12)
-ambientShadow.Size = UDim2.new(1, 17, 1, 17)
+ambientShadow.Position = UDim2.new(0.5, 0, 0.456805587, 12)
+ambientShadow.Size = UDim2.new(1, 17, 0.953611553, 17)
 ambientShadow.Image = "rbxassetid://1316045217"
 ambientShadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
 ambientShadow.ImageTransparency = 0.880
 ambientShadow.ScaleType = Enum.ScaleType.Slice
 ambientShadow.SliceCenter = Rect.new(10, 10, 118, 118)
 
-Configuration.Parent = MainFrame
+InfJumpText.Name = "InfJumpText"
+InfJumpText.Parent = Legit
+InfJumpText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfJumpText.BackgroundTransparency = 1.000
+InfJumpText.BorderSizePixel = 0
+InfJumpText.Position = UDim2.new(0.197999999, 0, 0.337000012, 0)
+InfJumpText.Size = UDim2.new(0, 89, 0, 17)
+InfJumpText.Font = Enum.Font.SourceSansBold
+InfJumpText.Text = "InfJump"
+InfJumpText.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfJumpText.TextSize = 21.000
+InfJumpText.TextWrapped = true
 
-X.Name = "X"
-X.Parent = MainFrame
-X.BackgroundColor3 = Color3.fromRGB(11, 11, 11)
-X.BorderColor3 = Color3.fromRGB(11, 11, 11)
-X.Position = UDim2.new(0.889632285, 0, 0.116119571, 0)
-X.Size = UDim2.new(0, 26, 0, 26)
-X.Font = Enum.Font.SourceSansBold
-X.Text = "X"
-X.TextColor3 = Color3.fromRGB(255, 255, 255)
-X.TextSize = 25.000
-X.TextWrapped = true
+Looogit.Name = "Looogit"
+Looogit.Parent = Legit
+Looogit.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+Looogit.BorderColor3 = Color3.fromRGB(17, 17, 17)
+Looogit.Position = UDim2.new(0, 0, 0.238999993, 0)
+Looogit.Size = UDim2.new(0, 30, 0, 29)
 
-Tab1Button1_Corner.CornerRadius = UDim.new(0, 4)
-Tab1Button1_Corner.Name = "Tab1Button1_Corner"
-Tab1Button1_Corner.Parent = X
+Configuration_2.Parent = Looogit
 
-TextButton.Name = "-"
-TextButton.Parent = MainFrame
-TextButton.BackgroundColor3 = Color3.fromRGB(11, 11, 11)
-TextButton.BorderColor3 = Color3.fromRGB(11, 11, 11)
-TextButton.Position = UDim2.new(0.802675784, 0, 0.116119571, 0)
-TextButton.Size = UDim2.new(0, 26, 0, 26)
-TextButton.Font = Enum.Font.SourceSansBold
-TextButton.Text = "-"
-TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton.TextSize = 25.000
-TextButton.TextWrapped = true
+UICorner1_2.Name = "UICorner1"
+UICorner1_2.Parent = Looogit
+
+InfJumpButton1.Name = "InfJumpButton1"
+InfJumpButton1.Parent = Looogit
+InfJumpButton1.BackgroundColor3 = Color3.fromRGB(48, 0, 0)
+InfJumpButton1.BorderColor3 = Color3.fromRGB(255, 255, 255)
+InfJumpButton1.Position = UDim2.new(0.284999996, 0, -0.00200000009, 0)
+InfJumpButton1.Size = UDim2.new(0, 26, 0, 26)
+InfJumpButton1.Font = Enum.Font.SourceSansBold
+InfJumpButton1.Text = ""
+InfJumpButton1.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfJumpButton1.TextSize = 25.000
+InfJumpButton1.TextWrapped = true
+InfJumpButton1.MouseButton1Down:connect(function()
+	local Player = game:GetService'Players'.LocalPlayer;
+	local UIS = game:GetService'UserInputService';
+
+	_G.JumpHeight = 50;
+
+	function Action(Object, Function) if Object ~= nil then Function(Object); end end
+
+	UIS.InputBegan:connect(function(UserInput)
+		if UserInput.UserInputType == Enum.UserInputType.Keyboard and UserInput.KeyCode == Enum.KeyCode.Space then
+			Action(Player.Character.Humanoid, function(self)
+				if self:GetState() == Enum.HumanoidStateType.Jumping or self:GetState() == Enum.HumanoidStateType.Freefall then
+					Action(self.Parent.HumanoidRootPart, function(self)
+						self.Velocity = Vector3.new(0, _G.JumpHeight, 0);
+					end)
+				end
+			end)
+		end
+	end)
+end)
 
 Tab1Button1_Corner_2.CornerRadius = UDim.new(0, 4)
 Tab1Button1_Corner_2.Name = "Tab1Button1_Corner"
-Tab1Button1_Corner_2.Parent = TextButton
+Tab1Button1_Corner_2.Parent = InfJumpButton1
 
-BloxHubText.Name = "BloxHubText"
-BloxHubText.Parent = MainFrame
-BloxHubText.Active = true
-BloxHubText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-BloxHubText.BackgroundTransparency = 1.000
-BloxHubText.ClipsDescendants = true
-BloxHubText.Selectable = true
-BloxHubText.Size = UDim2.new(0, 100, 0, 35)
-BloxHubText.Font = Enum.Font.SourceSansBold
-BloxHubText.Text = "| DarkHub"
-BloxHubText.TextColor3 = Color3.fromRGB(255, 255, 255)
-BloxHubText.TextSize = 25.000
-BloxHubText.TextWrapped = true
+InfJumpButton.Name = "InfJumpButton"
+InfJumpButton.Parent = Looogit
+InfJumpButton.BackgroundColor3 = Color3.fromRGB(0, 44, 0)
+InfJumpButton.BorderColor3 = Color3.fromRGB(255, 255, 255)
+InfJumpButton.Position = UDim2.new(0.284999996, 0, -0.00200000009, 0)
+InfJumpButton.Size = UDim2.new(0, 26, 0, 26)
+InfJumpButton.Visible = false
+InfJumpButton.Font = Enum.Font.SourceSansBold
+InfJumpButton.Text = ""
+InfJumpButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfJumpButton.TextSize = 25.000
+InfJumpButton.TextWrapped = true
 
-MainFrame2.Name = "MainFrame2"
-MainFrame2.Parent = MainFrame
-MainFrame2.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
-MainFrame2.BorderColor3 = Color3.fromRGB(17, 17, 17)
-MainFrame2.Position = UDim2.new(-0.00200000009, 0, 1.05400002, 0)
-MainFrame2.Size = UDim2.new(0, 299, 0, 175)
-
-UICorner1_2.Name = "UICorner1"
-UICorner1_2.Parent = MainFrame2
+Tab1Button1_Corner_3.CornerRadius = UDim.new(0, 4)
+Tab1Button1_Corner_3.Name = "Tab1Button1_Corner"
+Tab1Button1_Corner_3.Parent = InfJumpButton
 
 shadowHolderFrame_2.Name = "shadowHolderFrame"
-shadowHolderFrame_2.Parent = MainFrame2
+shadowHolderFrame_2.Parent = Legit
 shadowHolderFrame_2.BackgroundTransparency = 1.000
 shadowHolderFrame_2.Size = UDim2.new(1, 0, 1, 0)
+shadowHolderFrame_2.Visible = false
 
 umbraShadow_2.Name = "umbraShadow"
 umbraShadow_2.Parent = shadowHolderFrame_2
@@ -211,7 +188,7 @@ umbraShadow_2.AnchorPoint = Vector2.new(0.5, 0.5)
 umbraShadow_2.BackgroundColor3 = Color3.fromRGB(19, 19, 19)
 umbraShadow_2.BackgroundTransparency = 1.000
 umbraShadow_2.BorderColor3 = Color3.fromRGB(19, 19, 19)
-umbraShadow_2.Position = UDim2.new(0.5, 0, 0.458999991, 12)
+umbraShadow_2.Position = UDim2.new(0.5, 0, 0.242636368, 12)
 umbraShadow_2.Size = UDim2.new(1, 17, 1, 17)
 umbraShadow_2.Image = "rbxassetid://1316045217"
 umbraShadow_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
@@ -225,7 +202,7 @@ penumbraShadow_2.AnchorPoint = Vector2.new(0.5, 0.5)
 penumbraShadow_2.BackgroundColor3 = Color3.fromRGB(19, 19, 19)
 penumbraShadow_2.BackgroundTransparency = 1.000
 penumbraShadow_2.BorderColor3 = Color3.fromRGB(19, 19, 19)
-penumbraShadow_2.Position = UDim2.new(0.5, 0, 0.458999991, 12)
+penumbraShadow_2.Position = UDim2.new(0.5, 0, 0.242636368, 12)
 penumbraShadow_2.Size = UDim2.new(1, 17, 1, 17)
 penumbraShadow_2.Image = "rbxassetid://1316045217"
 penumbraShadow_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
@@ -247,597 +224,10 @@ ambientShadow_2.ImageTransparency = 0.880
 ambientShadow_2.ScaleType = Enum.ScaleType.Slice
 ambientShadow_2.SliceCenter = Rect.new(10, 10, 118, 118)
 
-Configuration_2.Parent = MainFrame2
-
-TabButtonsHolderFrame.Name = "TabButtonsHolderFrame"
-TabButtonsHolderFrame.Parent = MainFrame2
-TabButtonsHolderFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TabButtonsHolderFrame.BackgroundTransparency = 1.000
-TabButtonsHolderFrame.Position = UDim2.new(0.0568561889, 0, 0.0742857158, 0)
-TabButtonsHolderFrame.Size = UDim2.new(0, 165, 0, 23)
-
-Misc.Name = "Misc"
-Misc.Parent = TabButtonsHolderFrame
-Misc.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Misc.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Misc.Position = UDim2.new(-0.0012769294, 0, -0.231706694, 0)
-Misc.Size = UDim2.new(0, 49, 0, 26)
-Misc.Font = Enum.Font.SourceSansBold
-Misc.Text = "Misc"
-Misc.TextColor3 = Color3.fromRGB(255, 255, 255)
-Misc.TextSize = 25.000
-Misc.TextWrapped = true
-
-Tab1Button1_Corner_3.CornerRadius = UDim.new(0, 4)
-Tab1Button1_Corner_3.Name = "Tab1Button1_Corner"
-Tab1Button1_Corner_3.Parent = Misc
-
-TabsHolderFrame.Name = "TabsHolderFrame"
-TabsHolderFrame.Parent = MainFrame2
-TabsHolderFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TabsHolderFrame.BackgroundTransparency = 1.000
-TabsHolderFrame.Position = UDim2.new(0.0579999983, 0, 0.209999993, 0)
-TabsHolderFrame.Size = UDim2.new(0, 263, 0, 100)
-
-Tab1.Name = "Tab1"
-Tab1.Parent = TabsHolderFrame
-Tab1.Active = true
-Tab1.BackgroundColor3 = Color3.fromRGB(11, 11, 11)
-Tab1.BorderColor3 = Color3.fromRGB(11, 11, 11)
-Tab1.Position = UDim2.new(-0.00200000009, 0, 0.00999999978, 0)
-Tab1.Size = UDim2.new(0, 263, 0, 100)
-
-UICorner1_3.Name = "UICorner1"
-UICorner1_3.Parent = Tab1
-
-InfJumpButton.Name = "InfJumpButton"
-InfJumpButton.Parent = Tab1
-InfJumpButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-InfJumpButton.BorderColor3 = Color3.fromRGB(255, 255, 255)
-InfJumpButton.Position = UDim2.new(0.0359695628, 0, 0.0790000111, 0)
-InfJumpButton.Size = UDim2.new(0, 26, 0, 26)
-InfJumpButton.Font = Enum.Font.SourceSansBold
-InfJumpButton.Text = ""
-InfJumpButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-InfJumpButton.TextSize = 25.000
-InfJumpButton.TextWrapped = true
-InfJumpButton.MouseButton1Down:connect(function()
-	local Player = game:GetService'Players'.LocalPlayer;
-	local UIS = game:GetService'UserInputService';
-
-	_G.JumpHeight = 50;
-
-	function Action(Object, Function) if Object ~= nil then Function(Object); end end
-
-	UIS.InputBegan:connect(function(UserInput)
-		if UserInput.UserInputType == Enum.UserInputType.Keyboard and UserInput.KeyCode == Enum.KeyCode.Space then
-			Action(Player.Character.Humanoid, function(self)
-				if self:GetState() == Enum.HumanoidStateType.Jumping or self:GetState() == Enum.HumanoidStateType.Freefall then
-					Action(self.Parent.HumanoidRootPart, function(self)
-						self.Velocity = Vector3.new(0, _G.JumpHeight, 0);
-					end)
-				end
-			end)
-		end
-	end)
-end)
-
-Tab1Button1_Corner_4.CornerRadius = UDim.new(0, 4)
-Tab1Button1_Corner_4.Name = "Tab1Button1_Corner"
-Tab1Button1_Corner_4.Parent = InfJumpButton
-
-InfJumpText.Name = "InfJumpText"
-InfJumpText.Parent = Tab1
-InfJumpText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-InfJumpText.BackgroundTransparency = 1.000
-InfJumpText.BorderSizePixel = 0
-InfJumpText.Position = UDim2.new(0.148893058, 0, 0.0969995186, 0)
-InfJumpText.Size = UDim2.new(0, 89, 0, 17)
-InfJumpText.Font = Enum.Font.SourceSansBold
-InfJumpText.Text = "InfJump"
-InfJumpText.TextColor3 = Color3.fromRGB(255, 255, 255)
-InfJumpText.TextSize = 21.000
-InfJumpText.TextWrapped = true
-
-GodModeText.Name = "GodModeText"
-GodModeText.Parent = Tab1
-GodModeText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-GodModeText.BackgroundTransparency = 1.000
-GodModeText.BorderSizePixel = 0
-GodModeText.Position = UDim2.new(0.148893058, 0, 0.291999519, 0)
-GodModeText.Size = UDim2.new(0, 89, 0, 17)
-GodModeText.Font = Enum.Font.SourceSansBold
-GodModeText.Text = "GodMode"
-GodModeText.TextColor3 = Color3.fromRGB(255, 255, 255)
-GodModeText.TextSize = 21.000
-GodModeText.TextWrapped = true
-
-GodModeButton.Name = "GodMode Button"
-GodModeButton.Parent = Tab1
-GodModeButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-GodModeButton.BorderColor3 = Color3.fromRGB(255, 255, 255)
-GodModeButton.Position = UDim2.new(0.0359695628, 0, 0.273999989, 0)
-GodModeButton.Size = UDim2.new(0, 26, 0, 26)
-GodModeButton.Font = Enum.Font.SourceSansBold
-GodModeButton.Text = ""
-GodModeButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-GodModeButton.TextSize = 25.000
-GodModeButton.TextWrapped = true
-GodModeButton.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/MSZAznxp", true))()
-end)
-
-Tab1Button1_Corner_5.CornerRadius = UDim.new(0, 4)
-Tab1Button1_Corner_5.Name = "Tab1Button1_Corner"
-Tab1Button1_Corner_5.Parent = GodModeButton
-
-FlyEText.Name = "Fly (E) Text"
-FlyEText.Parent = Tab1
-FlyEText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-FlyEText.BackgroundTransparency = 1.000
-FlyEText.BorderSizePixel = 0
-FlyEText.Position = UDim2.new(0.148893058, 0, 0.481999516, 0)
-FlyEText.Size = UDim2.new(0, 89, 0, 17)
-FlyEText.Font = Enum.Font.SourceSansBold
-FlyEText.Text = "Fly (E)"
-FlyEText.TextColor3 = Color3.fromRGB(255, 255, 255)
-FlyEText.TextSize = 21.000
-FlyEText.TextWrapped = true
-
-FlyEButton.Name = "Fly (E)Button"
-FlyEButton.Parent = Tab1
-FlyEButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-FlyEButton.BorderColor3 = Color3.fromRGB(255, 255, 255)
-FlyEButton.Position = UDim2.new(0.0359695628, 0, 0.463999987, 0)
-FlyEButton.Size = UDim2.new(0, 26, 0, 26)
-FlyEButton.Font = Enum.Font.SourceSansBold
-FlyEButton.Text = ""
-FlyEButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-FlyEButton.TextSize = 25.000
-FlyEButton.TextWrapped = true
-FlyEButton.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/7rXZ9VNc", true))()
-end)
-
-Tab1Button1_Corner_6.CornerRadius = UDim.new(0, 4)
-Tab1Button1_Corner_6.Name = "Tab1Button1_Corner"
-Tab1Button1_Corner_6.Parent = FlyEButton
-
-NoclipRtext.Name = "Noclip (R) text"
-NoclipRtext.Parent = Tab1
-NoclipRtext.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-NoclipRtext.BackgroundTransparency = 1.000
-NoclipRtext.BorderSizePixel = 0
-NoclipRtext.Position = UDim2.new(0.148893058, 0, 0.688999057, 0)
-NoclipRtext.Size = UDim2.new(0, 110, 0, 17)
-NoclipRtext.Font = Enum.Font.SourceSansBold
-NoclipRtext.Text = "Noclip (R)"
-NoclipRtext.TextColor3 = Color3.fromRGB(255, 255, 255)
-NoclipRtext.TextSize = 21.000
-NoclipRtext.TextWrapped = true
-
-NoclipRButton.Name = "Noclip (R) Button"
-NoclipRButton.Parent = Tab1
-NoclipRButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-NoclipRButton.BorderColor3 = Color3.fromRGB(255, 255, 255)
-NoclipRButton.Position = UDim2.new(0.0359695628, 0, 0.66900003, 0)
-NoclipRButton.Size = UDim2.new(0, 26, 0, 26)
-NoclipRButton.Font = Enum.Font.SourceSansBold
-NoclipRButton.Text = ""
-NoclipRButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-NoclipRButton.TextSize = 25.000
-NoclipRButton.TextWrapped = true
-NoclipRButton.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/2pwTjwS4", true))()
-end)
-
-Tab1Button1_Corner_7.CornerRadius = UDim.new(0, 4)
-Tab1Button1_Corner_7.Name = "Tab1Button1_Corner"
-Tab1Button1_Corner_7.Parent = NoclipRButton
-
-BhopText.Name = "BhopText"
-BhopText.Parent = Tab1
-BhopText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-BhopText.BackgroundTransparency = 1.000
-BhopText.BorderSizePixel = 0
-BhopText.Position = UDim2.new(0.186000004, 0, 0.888999999, 0)
-BhopText.Size = UDim2.new(0, 82, 0, 17)
-BhopText.Font = Enum.Font.SourceSansBold
-BhopText.Text = "Anticheat"
-BhopText.TextColor3 = Color3.fromRGB(255, 255, 255)
-BhopText.TextSize = 21.000
-BhopText.TextWrapped = true
-
-AnticheatButton.Name = "Anticheat Button"
-AnticheatButton.Parent = Tab1
-AnticheatButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-AnticheatButton.BorderColor3 = Color3.fromRGB(255, 255, 255)
-AnticheatButton.Position = UDim2.new(0.0359695628, 0, 0.874000013, 0)
-AnticheatButton.Size = UDim2.new(0, 26, 0, 26)
-AnticheatButton.Font = Enum.Font.SourceSansBold
-AnticheatButton.Text = ""
-AnticheatButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-AnticheatButton.TextSize = 25.000
-AnticheatButton.TextWrapped = true
-AnticheatButton.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/BMGbkQ71", true))()
-end)
-
-Tab1Button1_Corner_8.CornerRadius = UDim.new(0, 4)
-Tab1Button1_Corner_8.Name = "Tab1Button1_Corner"
-Tab1Button1_Corner_8.Parent = AnticheatButton
-
-VersionText.Name = "VersionText"
-VersionText.Parent = MainFrame2
-VersionText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-VersionText.BackgroundTransparency = 1.000
-VersionText.BorderSizePixel = 0
-VersionText.Position = UDim2.new(-0.0284280945, 0, 0.89142859, 0)
-VersionText.Size = UDim2.new(0, 62, 0, 17)
-VersionText.Font = Enum.Font.SourceSansBold
-VersionText.Text = "v 1.0"
-VersionText.TextColor3 = Color3.fromRGB(255, 255, 255)
-VersionText.TextScaled = true
-VersionText.TextSize = 14.000
-VersionText.TextWrapped = true
-
-MainLoad.Name = "MainLoad"
-MainLoad.Parent = BloxHubConter
-MainLoad.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
-MainLoad.BorderColor3 = Color3.fromRGB(17, 17, 17)
-MainLoad.Position = UDim2.new(0.366744369, 0, 0.394294828, 0)
-MainLoad.Size = UDim2.new(0, 342, 0, 231)
-
-UICorner1_4.Name = "UICorner1"
-UICorner1_4.Parent = MainLoad
-
-Configuration_3.Parent = MainLoad
-
-shadowHolderFrame_3.Name = "shadowHolderFrame"
-shadowHolderFrame_3.Parent = MainLoad
-shadowHolderFrame_3.BackgroundTransparency = 1.000
-shadowHolderFrame_3.Size = UDim2.new(1, 0, 1, 0)
-
-umbraShadow_3.Name = "umbraShadow"
-umbraShadow_3.Parent = shadowHolderFrame_3
-umbraShadow_3.AnchorPoint = Vector2.new(0.5, 0.5)
-umbraShadow_3.BackgroundColor3 = Color3.fromRGB(19, 19, 19)
-umbraShadow_3.BackgroundTransparency = 1.000
-umbraShadow_3.BorderColor3 = Color3.fromRGB(19, 19, 19)
-umbraShadow_3.Position = UDim2.new(0.5, 0, 0.458999991, 12)
-umbraShadow_3.Size = UDim2.new(1, 17, 1, 17)
-umbraShadow_3.Image = "rbxassetid://1316045217"
-umbraShadow_3.ImageColor3 = Color3.fromRGB(0, 0, 0)
-umbraShadow_3.ImageTransparency = 0.860
-umbraShadow_3.ScaleType = Enum.ScaleType.Slice
-umbraShadow_3.SliceCenter = Rect.new(10, 10, 118, 118)
-
-penumbraShadow_3.Name = "penumbraShadow"
-penumbraShadow_3.Parent = shadowHolderFrame_3
-penumbraShadow_3.AnchorPoint = Vector2.new(0.5, 0.5)
-penumbraShadow_3.BackgroundColor3 = Color3.fromRGB(19, 19, 19)
-penumbraShadow_3.BackgroundTransparency = 1.000
-penumbraShadow_3.BorderColor3 = Color3.fromRGB(19, 19, 19)
-penumbraShadow_3.Position = UDim2.new(0.5, 0, 0.458999991, 12)
-penumbraShadow_3.Size = UDim2.new(1, 17, 1, 17)
-penumbraShadow_3.Image = "rbxassetid://1316045217"
-penumbraShadow_3.ImageColor3 = Color3.fromRGB(0, 0, 0)
-penumbraShadow_3.ImageTransparency = 0.880
-penumbraShadow_3.ScaleType = Enum.ScaleType.Slice
-penumbraShadow_3.SliceCenter = Rect.new(10, 10, 118, 118)
-
-ambientShadow_3.Name = "ambientShadow"
-ambientShadow_3.Parent = shadowHolderFrame_3
-ambientShadow_3.AnchorPoint = Vector2.new(0.5, 0.5)
-ambientShadow_3.BackgroundColor3 = Color3.fromRGB(19, 19, 19)
-ambientShadow_3.BackgroundTransparency = 1.000
-ambientShadow_3.BorderColor3 = Color3.fromRGB(19, 19, 19)
-ambientShadow_3.Position = UDim2.new(0.5, 0, 0.456805587, 12)
-ambientShadow_3.Size = UDim2.new(1, 17, 0.953611553, 17)
-ambientShadow_3.Image = "rbxassetid://1316045217"
-ambientShadow_3.ImageColor3 = Color3.fromRGB(0, 0, 0)
-ambientShadow_3.ImageTransparency = 0.880
-ambientShadow_3.ScaleType = Enum.ScaleType.Slice
-ambientShadow_3.SliceCenter = Rect.new(10, 10, 118, 118)
-
-DarkVoid.Name = "Dark - Void"
-DarkVoid.Parent = MainLoad
-DarkVoid.Active = true
-DarkVoid.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-DarkVoid.BackgroundTransparency = 1.000
-DarkVoid.ClipsDescendants = true
-DarkVoid.Position = UDim2.new(0.254385978, 0, 0.095238097, 0)
-DarkVoid.Selectable = true
-DarkVoid.Size = UDim2.new(0, 179, 0, 35)
-DarkVoid.Font = Enum.Font.SourceSansBold
-DarkVoid.Text = "Dark - Void"
-DarkVoid.TextColor3 = Color3.fromRGB(255, 255, 255)
-DarkVoid.TextSize = 25.000
-DarkVoid.TextWrapped = true
-
-Main.Name = "Main"
-Main.Parent = MainLoad
-Main.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
-Main.BorderColor3 = Color3.fromRGB(31, 31, 31)
-Main.Position = UDim2.new(0.109434426, 0, 0.294727683, 0)
-Main.Size = UDim2.new(0, 270, 0, 129)
-
-UICorner1_5.Name = "UICorner1"
-UICorner1_5.Parent = Main
-
-Load.Name = "Load"
-Load.Parent = MainLoad
-Load.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-Load.BorderColor3 = Color3.fromRGB(35, 35, 35)
-Load.Position = UDim2.new(0.20249787, 0, 0.570664942, 0)
-Load.Size = UDim2.new(0, 212, 0, 36)
-Load.Font = Enum.Font.SourceSansBold
-Load.Text = "Load"
-Load.TextColor3 = Color3.fromRGB(255, 255, 255)
-Load.TextSize = 25.000
-Load.TextWrapped = true
-
-Tab1Button1_Corner_9.CornerRadius = UDim.new(0, 4)
-Tab1Button1_Corner_9.Name = "Tab1Button1_Corner"
-Tab1Button1_Corner_9.Parent = Load
-
-SupportedTowerofHell.Name = "Supported - Tower of Hell"
-SupportedTowerofHell.Parent = MainLoad
-SupportedTowerofHell.Active = true
-SupportedTowerofHell.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SupportedTowerofHell.BackgroundTransparency = 1.000
-SupportedTowerofHell.ClipsDescendants = true
-SupportedTowerofHell.Position = UDim2.new(0.228070185, 0, 0.376623362, 0)
-SupportedTowerofHell.Selectable = true
-SupportedTowerofHell.Size = UDim2.new(0, 194, 0, 35)
-SupportedTowerofHell.Font = Enum.Font.SourceSansBold
-SupportedTowerofHell.Text = "Supported - Tower of Hell"
-SupportedTowerofHell.TextColor3 = Color3.fromRGB(255, 255, 255)
-SupportedTowerofHell.TextSize = 20.000
-SupportedTowerofHell.TextWrapped = true
-
-MainLoad2.Name = "MainLoad2"
-MainLoad2.Parent = MainLoad
-MainLoad2.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
-MainLoad2.BorderColor3 = Color3.fromRGB(17, 17, 17)
-MainLoad2.Position = UDim2.new(1.0858146, 0, -0.00830263086, 0)
-MainLoad2.Size = UDim2.new(0, 218, 0, 231)
-
-UICorner1_6.Name = "UICorner1"
-UICorner1_6.Parent = MainLoad2
-
-Configuration_4.Parent = MainLoad2
-
-shadowHolderFrame_4.Name = "shadowHolderFrame"
-shadowHolderFrame_4.Parent = MainLoad2
-shadowHolderFrame_4.BackgroundTransparency = 1.000
-shadowHolderFrame_4.Size = UDim2.new(1, 0, 1, 0)
-
-umbraShadow_4.Name = "umbraShadow"
-umbraShadow_4.Parent = shadowHolderFrame_4
-umbraShadow_4.AnchorPoint = Vector2.new(0.5, 0.5)
-umbraShadow_4.BackgroundColor3 = Color3.fromRGB(19, 19, 19)
-umbraShadow_4.BackgroundTransparency = 1.000
-umbraShadow_4.BorderColor3 = Color3.fromRGB(19, 19, 19)
-umbraShadow_4.Position = UDim2.new(0.5, 0, 0.458999991, 12)
-umbraShadow_4.Size = UDim2.new(1, 17, 1, 17)
-umbraShadow_4.Image = "rbxassetid://1316045217"
-umbraShadow_4.ImageColor3 = Color3.fromRGB(0, 0, 0)
-umbraShadow_4.ImageTransparency = 0.860
-umbraShadow_4.ScaleType = Enum.ScaleType.Slice
-umbraShadow_4.SliceCenter = Rect.new(10, 10, 118, 118)
-
-penumbraShadow_4.Name = "penumbraShadow"
-penumbraShadow_4.Parent = shadowHolderFrame_4
-penumbraShadow_4.AnchorPoint = Vector2.new(0.5, 0.5)
-penumbraShadow_4.BackgroundColor3 = Color3.fromRGB(19, 19, 19)
-penumbraShadow_4.BackgroundTransparency = 1.000
-penumbraShadow_4.BorderColor3 = Color3.fromRGB(19, 19, 19)
-penumbraShadow_4.Position = UDim2.new(0.5, 0, 0.458999991, 12)
-penumbraShadow_4.Size = UDim2.new(1, 17, 1, 17)
-penumbraShadow_4.Image = "rbxassetid://1316045217"
-penumbraShadow_4.ImageColor3 = Color3.fromRGB(0, 0, 0)
-penumbraShadow_4.ImageTransparency = 0.880
-penumbraShadow_4.ScaleType = Enum.ScaleType.Slice
-penumbraShadow_4.SliceCenter = Rect.new(10, 10, 118, 118)
-
-ambientShadow_4.Name = "ambientShadow"
-ambientShadow_4.Parent = shadowHolderFrame_4
-ambientShadow_4.AnchorPoint = Vector2.new(0.5, 0.5)
-ambientShadow_4.BackgroundColor3 = Color3.fromRGB(19, 19, 19)
-ambientShadow_4.BackgroundTransparency = 1.000
-ambientShadow_4.BorderColor3 = Color3.fromRGB(19, 19, 19)
-ambientShadow_4.Position = UDim2.new(0.497965217, 0, 0.456805617, 12)
-ambientShadow_4.Size = UDim2.new(0.968036413, 17, 0.953611553, 17)
-ambientShadow_4.Image = "rbxassetid://1316045217"
-ambientShadow_4.ImageColor3 = Color3.fromRGB(0, 0, 0)
-ambientShadow_4.ImageTransparency = 0.880
-ambientShadow_4.ScaleType = Enum.ScaleType.Slice
-ambientShadow_4.SliceCenter = Rect.new(10, 10, 118, 118)
-
-Credits.Name = "Credits"
-Credits.Parent = MainLoad2
-Credits.Active = true
-Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Credits.BackgroundTransparency = 1.000
-Credits.ClipsDescendants = true
-Credits.Position = UDim2.new(0.0892483592, 0, 0.0649350658, 0)
-Credits.Selectable = true
-Credits.Size = UDim2.new(0, 179, 0, 35)
-Credits.Font = Enum.Font.SourceSansBold
-Credits.Text = "Credits"
-Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
-Credits.TextSize = 28.000
-Credits.TextWrapped = true
-
-UIKron.Name = "UI - Kron"
-UIKron.Parent = MainLoad2
-UIKron.Active = true
-UIKron.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-UIKron.BackgroundTransparency = 1.000
-UIKron.ClipsDescendants = true
-UIKron.Position = UDim2.new(0.0537582636, 0, 0.238095224, 0)
-UIKron.Selectable = true
-UIKron.Size = UDim2.new(0, 194, 0, 35)
-UIKron.Font = Enum.Font.SourceSansBold
-UIKron.Text = "UI - Kron"
-UIKron.TextColor3 = Color3.fromRGB(255, 255, 255)
-UIKron.TextSize = 20.000
-UIKron.TextWrapped = true
-
-ScriptingKron9999.Name = "Scripting - Kron#9999"
-ScriptingKron9999.Parent = MainLoad2
-ScriptingKron9999.Active = true
-ScriptingKron9999.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ScriptingKron9999.BackgroundTransparency = 1.000
-ScriptingKron9999.ClipsDescendants = true
-ScriptingKron9999.Position = UDim2.new(0.0491711088, 0, 0.380952358, 0)
-ScriptingKron9999.Selectable = true
-ScriptingKron9999.Size = UDim2.new(0, 194, 0, 35)
-ScriptingKron9999.Font = Enum.Font.SourceSansBold
-ScriptingKron9999.Text = "Scripting - Kron#9999"
-ScriptingKron9999.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScriptingKron9999.TextSize = 20.000
-ScriptingKron9999.TextWrapped = true
-
-CreditsThanksto.Name = "Credits/Thanks to:"
-CreditsThanksto.Parent = MainLoad2
-CreditsThanksto.Active = true
-CreditsThanksto.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-CreditsThanksto.BackgroundTransparency = 1.000
-CreditsThanksto.ClipsDescendants = true
-CreditsThanksto.Position = UDim2.new(0.0491711088, 0, 0.528138518, 0)
-CreditsThanksto.Selectable = true
-CreditsThanksto.Size = UDim2.new(0, 194, 0, 35)
-CreditsThanksto.Font = Enum.Font.SourceSansBold
-CreditsThanksto.Text = "Credits/Thanks to:"
-CreditsThanksto.TextColor3 = Color3.fromRGB(255, 255, 255)
-CreditsThanksto.TextSize = 20.000
-CreditsThanksto.TextWrapped = true
-
-CreditsThanksto_2.Name = "Credits/Thanks to:"
-CreditsThanksto_2.Parent = MainLoad2
-CreditsThanksto_2.Active = true
-CreditsThanksto_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-CreditsThanksto_2.BackgroundTransparency = 1.000
-CreditsThanksto_2.ClipsDescendants = true
-CreditsThanksto_2.Position = UDim2.new(0.0537582636, 0, 0.679653645, 0)
-CreditsThanksto_2.Selectable = true
-CreditsThanksto_2.Size = UDim2.new(0, 194, 0, 35)
-CreditsThanksto_2.Font = Enum.Font.SourceSansBold
-CreditsThanksto_2.Text = "Dark"
-CreditsThanksto_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-CreditsThanksto_2.TextSize = 20.000
-CreditsThanksto_2.TextWrapped = true
-
-Main434434.Name = "Main434434"
-Main434434.Parent = MainLoad
-Main434434.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
-Main434434.BorderColor3 = Color3.fromRGB(17, 17, 17)
-Main434434.Position = UDim2.new(-0.727050781, 0, 0.0105602713, 0)
-Main434434.Size = UDim2.new(0, 218, 0, 98)
-
-UICorner1_7.Name = "UICorner1"
-UICorner1_7.Parent = Main434434
-
-Configuration_5.Parent = Main434434
-
-shadowHolderFrame_5.Name = "shadowHolderFrame"
-shadowHolderFrame_5.Parent = Main434434
-shadowHolderFrame_5.BackgroundTransparency = 1.000
-shadowHolderFrame_5.Size = UDim2.new(1, 0, 1, 0)
-
-umbraShadow_5.Name = "umbraShadow"
-umbraShadow_5.Parent = shadowHolderFrame_5
-umbraShadow_5.AnchorPoint = Vector2.new(0.5, 0.5)
-umbraShadow_5.BackgroundColor3 = Color3.fromRGB(19, 19, 19)
-umbraShadow_5.BackgroundTransparency = 1.000
-umbraShadow_5.BorderColor3 = Color3.fromRGB(19, 19, 19)
-umbraShadow_5.Position = UDim2.new(0.5, 0, 0.458999991, 12)
-umbraShadow_5.Size = UDim2.new(1, 17, 1, 17)
-umbraShadow_5.Image = "rbxassetid://1316045217"
-umbraShadow_5.ImageColor3 = Color3.fromRGB(0, 0, 0)
-umbraShadow_5.ImageTransparency = 0.860
-umbraShadow_5.ScaleType = Enum.ScaleType.Slice
-umbraShadow_5.SliceCenter = Rect.new(10, 10, 118, 118)
-
-penumbraShadow_5.Name = "penumbraShadow"
-penumbraShadow_5.Parent = shadowHolderFrame_5
-penumbraShadow_5.AnchorPoint = Vector2.new(0.5, 0.5)
-penumbraShadow_5.BackgroundColor3 = Color3.fromRGB(19, 19, 19)
-penumbraShadow_5.BackgroundTransparency = 1.000
-penumbraShadow_5.BorderColor3 = Color3.fromRGB(19, 19, 19)
-penumbraShadow_5.Position = UDim2.new(0.5, 0, 0.458999991, 12)
-penumbraShadow_5.Size = UDim2.new(1, 17, 1, 17)
-penumbraShadow_5.Image = "rbxassetid://1316045217"
-penumbraShadow_5.ImageColor3 = Color3.fromRGB(0, 0, 0)
-penumbraShadow_5.ImageTransparency = 0.880
-penumbraShadow_5.ScaleType = Enum.ScaleType.Slice
-penumbraShadow_5.SliceCenter = Rect.new(10, 10, 118, 118)
-
-ambientShadow_5.Name = "ambientShadow"
-ambientShadow_5.Parent = shadowHolderFrame_5
-ambientShadow_5.AnchorPoint = Vector2.new(0.5, 0.5)
-ambientShadow_5.BackgroundColor3 = Color3.fromRGB(19, 19, 19)
-ambientShadow_5.BackgroundTransparency = 1.000
-ambientShadow_5.BorderColor3 = Color3.fromRGB(19, 19, 19)
-ambientShadow_5.Position = UDim2.new(0.497965395, 0, 0.388664097, 12)
-ambientShadow_5.Size = UDim2.new(0.968036473, 17, 0.858499467, 17)
-ambientShadow_5.Image = "rbxassetid://1316045217"
-ambientShadow_5.ImageColor3 = Color3.fromRGB(0, 0, 0)
-ambientShadow_5.ImageTransparency = 0.880
-ambientShadow_5.ScaleType = Enum.ScaleType.Slice
-ambientShadow_5.SliceCenter = Rect.new(10, 10, 118, 118)
-
-Testers.Name = "Testers"
-Testers.Parent = Main434434
-Testers.Active = true
-Testers.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Testers.BackgroundTransparency = 1.000
-Testers.ClipsDescendants = true
-Testers.Position = UDim2.new(0.0890000015, 0, 0.0350000001, 0)
-Testers.Selectable = true
-Testers.Size = UDim2.new(0, 179, 0, 35)
-Testers.Font = Enum.Font.SourceSansBold
-Testers.Text = "Testers"
-Testers.TextColor3 = Color3.fromRGB(255, 255, 255)
-Testers.TextSize = 35.000
-Testers.TextWrapped = true
-
-UIKron_2.Name = "UI - Kron"
-UIKron_2.Parent = Main434434
-UIKron_2.Active = true
-UIKron_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-UIKron_2.BackgroundTransparency = 1.000
-UIKron_2.ClipsDescendants = true
-UIKron_2.Position = UDim2.new(0.0540000014, 0, 0.338, 0)
-UIKron_2.Selectable = true
-UIKron_2.Size = UDim2.new(0, 194, 0, 35)
-UIKron_2.Font = Enum.Font.SourceSansBold
-UIKron_2.Text = "Kron#9999"
-UIKron_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-UIKron_2.TextSize = 20.000
-UIKron_2.TextWrapped = true
-
-ScriptingKron9999_2.Name = "Scripting - Kron#9999"
-ScriptingKron9999_2.Parent = Main434434
-ScriptingKron9999_2.Active = true
-ScriptingKron9999_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ScriptingKron9999_2.BackgroundTransparency = 1.000
-ScriptingKron9999_2.ClipsDescendants = true
-ScriptingKron9999_2.Position = UDim2.new(0.0489999987, 0, 0.58099997, 0)
-ScriptingKron9999_2.Selectable = true
-ScriptingKron9999_2.Size = UDim2.new(0, 194, 0, 35)
-ScriptingKron9999_2.Font = Enum.Font.SourceSansBold
-ScriptingKron9999_2.Text = "<--me irl#0420"
-ScriptingKron9999_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScriptingKron9999_2.TextSize = 20.000
-ScriptingKron9999_2.TextWrapped = true
-
 -- Scripts:
 
-local function BALD_fake_script() -- MainFrame.DraggableScript 
-	local script = Instance.new('LocalScript', MainFrame)
+local function GFYUZU_fake_script() -- Legit.DraggableScript 
+	local script = Instance.new('LocalScript', Legit)
 
 	local UIS = game:GetService('UserInputService')
 	local frame = script.Parent
@@ -874,41 +264,13 @@ local function BALD_fake_script() -- MainFrame.DraggableScript
 		end
 	end)
 end
-coroutine.wrap(BALD_fake_script)()
-local function PLTK_fake_script() -- X.Script 
-	local script = Instance.new('Script', X)
+coroutine.wrap(GFYUZU_fake_script)()
+local function NHSAYEF_fake_script() -- Open.Script 
+	local script = Instance.new('Script', Open)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 	
 end
-coroutine.wrap(PLTK_fake_script)()
-local function MMNOJL_fake_script() -- MainFrame.Script 
-	local script = Instance.new('Script', MainFrame)
-
-	local branch = script.Parent 
-	local open = branch["-"] 
-	local MainFrame = branch.MainFrame2
-	
-	open.MouseButton1Click:connect(function() 
-		if MainFrame.Visible == false then 
-			MainFrame.Visible = true 
-			open.Text = "-" 
-		elseif 
-			MainFrame.Visible == true then  
-			MainFrame.Visible = false 
-			open.Text = "+"
-		end
-	end)
-end
-coroutine.wrap(MMNOJL_fake_script)()
-local function PLJC_fake_script() -- Load.Script 
-	local script = Instance.new('Script', Load)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Visible = false
-	end)
-	
-end
-coroutine.wrap(PLJC_fake_script)()
+coroutine.wrap(NHSAYEF_fake_script)()
