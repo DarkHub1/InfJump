@@ -1,4 +1,4 @@
--- Made by Kron
+--Made by Kron
 
 local BloxHubConter = Instance.new("ScreenGui")
 local Legit = Instance.new("Frame")
@@ -234,7 +234,7 @@ ambientShadow_2.SliceCenter = Rect.new(10, 10, 118, 118)
 
 -- Scripts:
 
-local function PLIARSE_fake_script() -- Legit.DraggableScript 
+local function ESOYIB_fake_script() -- Legit.DraggableScript 
 	local script = Instance.new('LocalScript', Legit)
 
 	local UIS = game:GetService('UserInputService')
@@ -272,8 +272,8 @@ local function PLIARSE_fake_script() -- Legit.DraggableScript
 		end
 	end)
 end
-coroutine.wrap(PLIARSE_fake_script)()
-local function IUCRU_fake_script() -- Open.Script 
+coroutine.wrap(ESOYIB_fake_script)()
+local function YRFQG_fake_script() -- Open.Script 
 	local script = Instance.new('Script', Open)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -281,4 +281,4 @@ local function IUCRU_fake_script() -- Open.Script
 	end)
 	
 end
-coroutine.wrap(IUCRU_fake_script)()
+coroutine.wrap(YRFQG_fake_script)()
